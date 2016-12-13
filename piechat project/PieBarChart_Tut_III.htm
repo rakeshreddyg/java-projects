@@ -1,0 +1,1497 @@
+<html>
+<head>
+<title>Tutorial: How to Create a Pie Chart III</title>
+
+<META NAME="description" CONTENT="In this tutorial, we will explore the steps required to create and expand on the previous simple pie chart II.">
+
+<meta NAME="keywords" CONTENT="A Basic Pie Chart III, simple pie chart, java simple pie chart, java pie chart, pie chart, pie chart applet, pie chart application,, pie graph, fillarc jtable">
+<meta name="title" content="How to Create a Pie Chart III - java, javscript">
+<meta NAME="Copyright" CONTENT="Copyright 2007, Total Application Works">
+<meta NAME="Creator" CONTENT="Total Application Works">
+<meta NAME="Publisher" CONTENT="Total Application Works">
+<meta NAME="Distribution" CONTENT="Global">
+<meta NAME="Rating" CONTENT="General">
+
+
+
+          <meta NAME="revisit-after" content=" 7 days">
+</head>
+<body>
+<hr><table>
+
+<tr>
+<th colspan=2> 
+<center><font color=blue size=5><b>Tutorial: How to Create a Pie/Bar Chart III</b> <br>
+by<br>
+Ronald S. Holland<br>
+Total Application Works<br>
+RonHolland@sumtotalz.com<br><br><br>
+</font> </center>
+<br>
+
+          <br> <center> 
+          <img src="indexHWS_files/bludiv4684.html" width="600" height="5">
+
+           <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+
+<br> <br><font size="5">To visit my site</font> <br> <br>
+
+[<a href="http://sumtotalz.com/TotalAppsWorks/index.html">HOME</a>] 
+                 [<a href="http://sumtotalz.com/TotalAppsWorks/consulting.html">Consulting</a>] [<a href="http://sumtotalz.com/TotalAppsWorks/design.html">Design</a>]
+                 [<a href="http://sumtotalz.com/TotalAppsWorks/Maintenance.html">Maintenance</a>] [<a href="http://sumtotalz.com/TotalAppsWorks/project.html">Project</a>] 
+                 [<a href="http://sumtotalz.com/TotalAppsWorks/testing.html">Testing</a>] [<a href="http://sumtotalz.com/training.html">Training</a>] [<a href="http://sumtotalz.com/turnkey.html">Turnkey</a>] 
+                  [<a href="http://sumtotalz.com/TotalAppsWorks/java.html">Java</a>]                [<a href="http://sumtotalz.com/TotalAppsWorks/cplusplus.html">C++</a>]
+[<a href="http://sumtotalz.com/TotalAppsWorks/SQL/MY_SQL_TOC.html">SQL</a>]
+[<a href="http://sumtotalz.com/TotalAppsWorks/HTML/HTML_TOC.html">HTML</a>] 
+[<a href="http://sumtotalz.com/TotalAppsWorks/Javascript/MY_JS_TOC.html">JavaScript </a>]</font></p>
+
+<br> <br><a href="http://sumtotalz.com/TotalAppsWorks/contact.html"><font size="4">To contact us</font></a>  <br><br>
+
+           <p><font color="black" size="2" face="Arial, Helvetica, sans-serif">
+&copy; 2002 - 2009 All 
+                Rights Reserved<b><i> Total Application Works </i></b></font></p> </center> </center> 
+<br> <br>
+<ul>
+<li>Tell a friend about this site (copy and paste the following link or send this page to a friend.) <br> <br>
+<table border>
+<tr>
+<th><pre>                        Link to this tutorial                    </pre></th>
+</tr>
+<tr>
+<td>&lt;html> <br>
+&lt;title>Example of a link &lt;/title> <br>
+&lt;body> <br>
+&lt;table border> <br>
+&lt;a  <br>
+href="http://www.sumtotalz.com/TotalAppsWorks/PieChart/PieBarChart_Tut_III.htm"> Tutorial: Pie Chart III &lt;/a> <br>
+&lt;/table> <br>
+&lt;/body> <br>
+&lt;/html> </td>
+</tr>
+<tr>
+<td><a href="http://www.sumtotalz.com/TotalAppsWorks/PieChart/PieBar_III.zip">source </a> </td>
+</tr>
+<tr>
+<td><a href="http://www.sumtotalz.com/TotalAppsWorks/PieChart/PieChart_III.JPG"> screenshot</a> </td>
+</tr>
+</table> <br> <br>
+</th>
+</tr>
+<tr>
+<th align=left valign=top width=25% bgcolor=lightblue>
+<ol>
+<li><a href="http://sumtotalz.com/TotalAppsWorks/JAVA_TOC.html"> Java Table of contents  </a>
+
+<li><a href="http://sumtotalz.com/TotalAppsWorks/SecondCupOfJava.html"> 2nd Java Cup  </a>
+
+<li><a href="http://sumtotalz.com/TotalAppsWorks/PieChart/Pie_Chart.htm">Pie Chart I  </a>
+
+<li><a href="http://sumtotalz.com/TotalAppsWorks/PieChart/PieChart_IB_Tut.html">Pie/Bar Chart IB </a>
+
+<li><a href="http://sumtotalz.com/TotalAppsWorks/PieChart/PieBarChart_Tut_II.htm">Pie/Bar Chart II </a>
+
+<li><a href="http://sumtotalz.com/TotalAppsWorks/PieChart/PieBarChart_Tut_III.htm"> Pie/Bar Chart III</a>
+<li><a href="http://sumtotalz.com/TotalAppsWorks/Calc_All/BasicCalc_Tut.html"> A Basic Calculator</a>
+
+<li><a href="http://sumtotalz.com/TotalAppsWorks/Linkedlist/LL_Tutorial.html">Linked Lists</a>
+<li><a href="http://sumtotalz.com/TotalAppsWorks/Linkedlist/LL_Tutorial_2.html"> Linked List II</a>
+
+<li><a href="http://sumtotalz.com/TotalAppsWorks/Linkedlist/LL_Tutorial_3.html"> Linked List III</a>
+
+<li><a href="http://sumtotalz.com/TotalAppsWorks/Linkedlist/LL_Tutorial_4.html"> Linked List IV</a>
+
+<li> <a href="http://sumtotalz.com/TotalAppsWorks/HW_Tutorial.html">Hardware Store I </a>
+
+<li><a href="http://sumtotalz.com/TotalAppsWorks/HW_Tutorial_II.html">Hardware Store II </a>
+<li><a href="http://sumtotalz.com/TotalAppsWorks/HW_Tutorial_III.html">Hardware Store III </a>
+<li><a href="http://sumtotalz.com/TotalAppsWorks/Client_Server/Sockets_Tutorial.html">Client/Server  </a>
+
+<li><a href="http://sumtotalz.com/TotalAppsWorks/Client_Server/Sockets_Tutorial_II.html"> Client/Server II</a>
+
+<li><a href="http://sumtotalz.com/TotalAppsWorks/Client_Server/Sockets_Tutorial_III.html">Client/Server III </a>
+<li><a href="http://sumtotalz.com/TotalAppsWorks/Client_Server/Sockets_Tutorial_IV.html"> Client/Server IV</a>
+
+<li><a href="http://sumtotalz.com/TotalAppsWorks/Multithreaded/MT_C_S_Tutorial.html">Multithreaded Client/Server </a>
+<li><a href="http://sumtotalz.com/TotalAppsWorks/Multithreaded/MT_C_S_II_Tutorial.html">Multithreaded Client/Server II  </a>
+<li><a href="http://sumtotalz.com/TotalAppsWorks/Multithreaded/MT_C_S_III_Tutorial.html"> Multithreaded Client/Server III </a>
+
+<li><a href="http://sumtotalz.com/TotalAppsWorks/Calc_All/BasicCalc_Tut_II.html"> Basic Calculator II</a>
+<li><a href="http://sumtotalz.com/TotalAppsWorks/Calc_All/BasicCalc_Tut_III.html"> Basic Calculator III</a>
+
+</ol>
+
+</th>
+
+<td align=left valign=top width=75%>
+<ul>
+<li><a href="#INTRO"> Introduction </a>  
+<li><a href="#REQ"> Requirements </a> 
+<li><a href="#WITPOTSM">What is the purpose of the setup() method?</a>
+<li><a href="#WITD">What is the data?</a>
+<li><a href="#AT"> Application Template </a> 
+<li><a href="#IM"> init() Method </a> 
+<li><a href="#MM"> main() Method </a>
+<li><a href="#STHAW"> Set the Height and Width </a>
+<li><a href="#CB">Create Buttons</a> 
+<li><a href="#CTF">Create Text Fields</a>
+<li><a href="#LM"> Layout Managers </a> 
+<li><a href="#G2D"> Graphics API </a>
+<li><font size="4"><a href="#PTC"> Print the Charts</a>
+<li><a href="#HDWGTUI">How Do We Get the User's Input? </a>
+<li><a href="#VDAD">Verifying Data are Digits</a>
+<li><a href="#VDINN">Verifying Data is not Null </a>
+<li><a href="#CFCID">Checking for Change in Data </a>
+<li><a href="#FP"> Final Product </a>
+<li><a href="#APPAPP"> Template for an application/applet </a>
+</ul>
+<h3><a name="INTRO"> Introduction </a> </h3>
+<p>This tutorial assumes that you have read and completed the following six tutorials.
+<ol>
+<li><a href="http://java.sun.com/docs/books/tutorial/getStarted/cupojava/index.html">Your First Cup of Java </a>
+<li><a href="http://java.sun.com/docs/books/tutorial/getStarted/index.html"> Getting Started </a>
+<li><a href="http://sumtotalz.com/TotalAppsWorks/SecondCupOfJava.html"> <b><i>Tutorial: A Second Cup of Java</i></b> </a>.
+<li><a href="http://www.sumtotalz.com/TotalAppsWorks/PieChart/Pie_Chart.htm"> <b><i>Tutorial: How to Create a Pie Chart I </i></b> </a>.
+<li><a href="http://www.sumtotalz.com/TotalAppsWorks/PieChart/PieChart_IB_Tut.html"> <b><i>Tutorial: How to Create a Pie Chart IB </i></b> </a>.
+<li><a href="http://www.sumtotalz.com/TotalAppsWorks/PieChart/PieChart_II_Tut.html"> <b><i>Tutorial: How to Create a Pie Chart II </i></b> </a>.
+</ol>
+The rest of this tutorial will build on and reinforce what you learned from the above tutorials, especially the <b><i>Tutorial: How to Create a Pie/Bar Chart II</i></b>. We will expand on the <b><i>Pie/Bar Chart II</i></b> by adding to its behaviors/functionality</p>
+<p>In the previous tutorial titled <b>"Tutorial: How to Create a Pie Chart IB"</b>, we explored the steps required to allow the user to enter the data that we used to create a <i><b>pie chart</b></i>. 
+In this tutorial, we will build on the previous example and allow the user to enter the data that we will use to create not a <i><b>pie chart</b></i>, and use this data to create a <i><b>bar chart</b></i>. The additional behavior that will be added in this 
+tutorial will be to allow the user to print the pie chart or bar chart shown on the screen.
+The method we will use to display the pie and/or bar chart on the screen will be a combination program that can executed as an application or as an applet. Let's pursue the following requirements to see how we approach this task.
+</p>
+<h3><font size="4"><a name="REQ"> Requirements  </a></font></h3>
+<p>The requirements for this project are to:
+<ol>
+<h4>Requirements for Pie Chart IB</h4>
+<li>Create a program that can be run as an application or as an applet.
+<li>Create this program as a subclass of the <b>JApplet</b> class.
+<li>Display a pie chart using this program.
+<li>Use JButtons should allow the user to select a pie chart or to allow for program shutdown.
+<ul>
+<li><b>Pie Chart</b>
+<li><b>Exit</b>
+</ul>
+<li>Allow data to be entered via JTextFields.
+<li>Use the Graphics API.
+<li>Select a Layout Manager (<a href="#BORDER"> BorderLayout)</a> for the placement of the 
+<ul>
+<li><b>JTextField</b>s at the top
+<li><b>JButton</b>s at the top
+<li>The pie chart in the center of the frame
+</ul>
+<li>Add the following behaviors
+<ul>
+<li>The setupButtons() method allocates and sets up the JButtons.
+<li>The setupPanels() method is used to create the JPanels and JLabels used in this application/applet.
+<li>The setupText() method allocates and sets up the entry text fields used to gather user input.
+<li>Check Fields - the checkFields() method ensures that the data in the entry fields is not null
+<li>Check Digits - checkDigit() This method checks to ensure that the data entered in the text fields are all digits.
+<li>Check Fields that Change - The checkFieldsChange() method checks if data in the text fields has changed since the last check.
+</ul>
+<li>Create an application/applet template to outline your approach.
+<h4>New Requirements for Pie Chart II</h4>
+<li>Add to the Chart IB behaviors with the addition of 
+<ul>
+<li>Create a <b>Bar Chart</b> behavior
+<ul>
+<li>Use the data the user has entered to create a <b>Bar chart</b>.
+</ul>
+<li>Create a <b>Help</b> behavior
+<ul>
+<li>Display an <b>HTML</b> file that provides help explanations on several aspects of how to create and run this application.
+</ul>
+<li>Create a <b>About</b> behavior
+<ul>
+<li>Create a link to the <b>Total Application Works</b> home page.
+</ul>
+<li>Create a <b>Clear</b> behavior
+<ul>
+<li>Clear the center panel of any images.
+</ul>
+</ul>
+<li>The <b>push button</b> array should resemble
+<br> <br>
+<table border>
+<tr>
+<th bgcolor=lightgray>Create a Pie Chart</th>
+<th bgcolor=lightgray>Create a Bar Chart</th>
+<th bgcolor=blue><font color=white>Help </font> </th>
+<th bgcolor=blue><font color=white>About </font> </th>
+<th bgcolor=white><font color=blue>Clear </font> </th>
+<th bgcolor=red><font color=white>Exit </font> </th>
+</tr>
+</table>
+<br>
+<font color=blue>
+<h4>New Requirements for Pie Chart III</h4>
+<li>Add a print function to the application.
+<li>Add a print push button to the application.
+<li>The <b>push button</b> array should look like the following:
+<table border>
+<tr>
+<th bgcolor=lightgray>Create a Pie Chart</th>
+<th bgcolor=lightgray>Create a Bar Chart</th>
+<th bgcolor=lightgray>Print</th>
+<th bgcolor=blue><font color=white>Help </font> </th>
+<th bgcolor=blue><font color=white>About </font> </th>
+<th bgcolor=white><font color=blue>Clear </font> </th>
+<th bgcolor=red><font color=white>Exit </font> </th>
+</tr>
+</table>
+<br>
+<br>
+</font>
+</ol>
+In the following section, we will describe the purpose of the <b>setup() method.</b>
+</p>
+
+<h3><a name="WITPOTSM">What is the purpose of the setup() method?</a> </h3>
+<p>The purpose of the <b>setup()</b> methods is to create the <b>GUI</b> the user sees displayed. In some previous tutorials, I used the setup() method to create
+<ul> 
+<li><b>JMenu</b>s - An implementation of a menu -- a popup window containing JMenuItems that is displayed when the user selects an item on the JMenuBar.
+<li><b>JMenuBar</b>s - An implementation of a menu bar.
+<li><b>JMenuItem</b>s - An implementation of an item in a menu.
+<li><b>JLabel</b>s -  A display area for a short text string or an image, or both.
+<li><b>JPanel</b>s - is a generic lightweight container.
+<li><b>JScrollBar</b>s - An implementation of a scrollbar.
+<li><b>JTable</b>s - The JTable is used to display and edit regular two-dimensional tables of cells.
+<li><b>JTextArea</b>s - A JTextArea is a multi-line area that displays plain text. 
+<li><b>JTextField</b>s - JTextField is a lightweight component that allows the editing of a single line of text
+</ul>
+The above object creation takes place in the setup() method. Some of you might prefer further step-wise refinement. If so, the outline might look like:
+<ol>
+<li>The <b>setupMenu()</b> method allocates and sets up the <b>JMenu</b>, <b>JMenuBar</b>, and <b>JMenuItem</b>s.
+<li>The <b>setupButtons()</b> method allocates and sets up the <b>JButton</b>s.
+<li>The <b>setupPanels()</b> method is used to create the <b>JPanel</b>s and <b>JLabel</b>s used in this application/applet.
+<li>The <b>setupText()</b> method allocates and sets up the entry text fields used to gather user input.
+</ol>
+The above logic takes place in the setup() method and is used to create the context so that user can interact with the application/applet. 
+<br> <br>  
+<table border>
+<tr>
+<td> <pre> <b> <font color=blue size=4>
+private void setUp() {
+   SetupMenu() ;
+   SetUPButtons() ;
+   SetUPPanels() ;
+   SetupText() ;
+
+}
+private void SetupMenu() {
+   ...
+}
+private void SetUPButtons() {
+   ...
+}
+private void SetUPPanels()  {
+   ...
+}
+private void SetupText()  {
+   ...
+}
+</font> </b> </pre> </td>
+<tr bgcolor=lightyellow>
+<th>Figure 1: Setup() method </th>
+</tr>
+</tr>
+</table> <br> <br>
+This process was/is known as <a href="#TOPD">top-down</a> structured programming. What I have done is take a unit (setup() method), and I have broken it down into finer units.
+It is like taking a dime and turning it into ten pennies. The pennies are still worth ten cents; the same value that the dime has. Some of you might also prefer this granularity because in future versions
+of this tutorial, I remove the <b>SetUPButtons()</b> method and replace it with the <b>SetUPMenu()</b> method. Even though I do this replacement in the context of the original <b>Setup()</b> method, this finer
+granularity makes it easier to see what I have done. In <i>object-oriented</i> programming, programming revolves around the data. So in this style, the top is the data. It might be depicted as follows:
+<br> <br>
+<table border>
+<tr>
+<td>
+<pre> <b> <font color=blue>
+          +--------------+
+          |      Data    |  
+          +-------+------+  
+                  ^
+                  |
+                  V
+          +-------+------+
+          |   Top-down   |  
+          |  Structured  |<----+
+          |  programming |     |
+          |  on Classes  |     | (step-wise)
+          |  and methods |     | (refinement)
+          +--------------+     | (as needed) 
+                  |            |
+                  +------------+ 
+ 
+</font> </b> </pre>
+</td>
+</tr>
+<tr bgcolor=lightyellow>
+<th>Figure 2: Holland's OOP Programming Design Model</th>
+</tr>
+</table>
+Let's look at the <b>data</b> in the next section.
+</p>
+<h3><a name="WITD">What is the data?</a></h3>
+<p>What is the data? In the context of this tutorial, the <b>data</b> is entered via the <b>JTextfield</b>s on the main frame. There are five <b>JTextfield</b>s, so there are 
+<ul>
+<li>Five pieces of data, and
+<li>Data in the form of whole numbers (<b>ints</b>)
+</ul>
+The behaviors that we want to perform on this data is:
+<ul>
+<li><b>checkDigit()</b> - This method checks to ensure that the data entered in the text fields are all digits.
+<li><b>checkFields()</b> - the checkFields() method ensures that the data is not null
+<li><b>checkFieldsChange()</b> - This method checks if data in the text fields has changed since the last check.
+<li><b>drawBar()</b> -  uses the user input to draw the bar chart.
+<li><b>drawPie()</b> - uses the user input to draw the pie chart
+<li><b>getTextValues()</b> - This method retrieves the user-entered data from the text entry fields.
+</ul>
+The logic follows in the form of:
+<ol>
+<li>The <b>Pie Chart</b> application/applet starts execution;
+<li>The user enters five whole (<b>int</b>s) numbers;
+<li>The user presses a push button;
+<ul>
+<li>If the user pressed <b>Create a Pie chart</b> or <b>Create a Bar chart</b>,
+<ul>
+<li>The program gathers the data;
+<li>The program ensures that there is data in each field;
+<li>If so, the program ensures that each piece of data is an integer;
+<li>The program determines whether the data has changed since the last push button was pressed;
+<li>If there are no data errors, the program proceeds;
+</ul>
+</ul>
+<li>The program performs the request indicated by the button pressed;
+<li>The program waits for the next user request.
+</ol>
+Based on understanding the data, we can then define the tasks to be performed on this data. We will describe the class that will enclose these behaviors/methods in the next section.
+</p>
+<h3><a name="AT"> Application Template  </a> </h3>
+<p>What do we need to do to run this program as an <a href="#APPAPP">application or as an applet</a>?
+<ul>
+<li>The <i>top-most</i> class should extend <b>JApplet</b>.
+<li>There should be an <b>init()</b> method and not a constructor.
+<ul>
+<li>The <b>init()</b> method allows the program to run as an applet and perform any initialization.
+</ul>
+<li>There should be a <b>main()</b> method to allow the program to run as an application.
+<li>There should be an <b>html</b> file that allows the program to be loaded into a browser.
+</ul>
+With these points in mind, our application/applet pseudocode/template looks like:
+<br><br><table border>
+<tr>
+<td>
+<pre> <b> <font color=blue>
+
+public class PieChart extends JApplet {
+   
+
+   public void init()   {    
+   }
+
+  /** allocate the text fields */
+   public void setupText() {
+
+   }
+
+  /** allocate the buttons */
+   public void setupButtons() {
+
+   }
+
+  /** set width of window */
+   public void setWidth( int w )
+      { width = ( w >= 0 ? w : 300 ); }
+
+  /** set height of window */
+   public void setHeight( int h )
+      { height = ( h >= 0 ? h : 200 ); }
+
+  /** ensure that all data is in digit format */
+   public boolean  checkDigit(String strVal) {
+   }
+
+   /** check for any data changes in the text fields */
+   public void checkFieldsChange( ActionEvent e ) {
+   }
+
+   /** get text values */
+   public void getTextValues() {
+   }
+
+   /** Ensure that the data is not null */
+   public boolean checkFields( ActionEvent e, 
+                        JButton choice, int i )
+   {
+
+   }
+
+   /** program entry point used by the JVM */ 
+   public static void main( String args[] )
+   {
+      instantiate PieChart instance
+
+      listen for window closing and exit
+   }
+
+
+   /** event handler for the buttons */
+   private class actionPerformed( ActionEvent e ) {
+   }
+}
+
+</font> </b> </pre> </td>
+</tr>
+<tr bgcolor=lightyellow>
+<th>Figure 3: application/applet pseudocode/template</th>
+</tr>
+</table>
+</p>
+<h3><a name="IM"> init() Method </a>  </h3>
+<p>The <b>init() method</b> is called by the browser the user has loaded or by Java's <b>applet viewer</b> to inform this applet that it has been loaded into the system. The calling sequence  when the applet is first loaded or reloaded is:
+<ul>
+<li><b>init() method</b>
+<li><b>start() method</b>.
+</ul>
+</p>
+<p>A subclass of Applet should override this method if it has initialization to perform. In this case, the <b>PieChart_IB</b> is a <b><i>subclass</i> of JApplet</b>, and it calls other methods to create push buttons and text entry fields. In addition, 
+the layout manager is created as part of the initialization process. An outline of what occurs looks like:
+<ol> <b>
+<li>setupPanels() - allocate the area on which the pie chart will be drawn
+<li>setupText() - create the text entry fields
+<li>setupButtons() - create the push button
+<li>add the text fields to the top of the frame
+<li>add the push buttons to the bottom of the frame
+<li>add the drawing area to the center of the frame
+</b> 
+</ol>
+When you double-click on <b></b> the <b>Windows Explorer</b> listing of <b><i>PieBarGraph</i></b>, <b>Java</b> will load the application and use the <i>main() method</i> as an entry point into the application.
+</p>
+<h3><a name="MM"> main() Method </a>  </h3>
+<p>The <b>main() method</b> is called when <b>PieChart_IB</b> is run as an application. When the <b>main() method</b> is called, this method does the following:
+<ol> <b>
+<li>create and initialize the width and height variables
+<li>create a <b>JFrame</b> object
+<li>create one applet instance
+<li>set the window's size (width and height)
+<li>call applet's init and start methods
+<li>attach applet to center of window
+<li>add a Window Listener
+<ul>
+<li>Adds the specified window listener to receive window events from this window. 
+<li>Add the windowClosing method
+<ul>
+<li>Invoked when a window is in the process of being closed. The close operation can be overridden at this point.
+</ul>
+</ul>
+<li>make the window visible
+</b> 
+</ol>
+</p>
+<h3><a name="STHAW"> Set the Height and Width </a> </h3>
+<p>The purpose of the <b>setHeight() and setWidth()</b> methods is to set the frame's height and width, respectively.
+</p>
+<h3><a name="CB">Create Buttons</a> </h3>
+<p>The <b>setupButtons()</b> method is used to create the push buttons used in this program.
+<ol>
+<li>create the following push buttons
+<ul>
+<li><b>Create Pie Chart</b>
+<li><b>Create Bar Chart</b>
+<li><b>Print</b>
+<li><b>Help</b>
+<li><b>About</b>
+<li><b>Clear</b>
+<li><b>Exit</b>
+</ul>
+<li>add the above buttons to the button panel
+<li>add these buttons to the <b>this</b> event handler
+<ul>
+<li>This means that the PieBarGraph class will respond to the events caused by the <b>Create Pie Chart</b>, <b>Create Bar Chart</b>, ... or the <b>Exit</b> button being pressed.
+</ul>
+</ol>
+</p>
+<h3><a name="CTF">Create Text Fields</a> </h3>
+<p>The setupText() method allocates and sets up the label ("Enter 5 numbers.) and the entry text fields used to gather user input. It also allocates the JPanel that contains the text entry fields.
+<ol>
+<li>create the following JPanel and entry text fields
+<ul>
+<li><b>textPanel</b>
+<li><b>text1</b>
+<li><b>text2</b>
+<li><b>text3</b>
+<li><b>text4</b>
+<li><b>text5</b>
+</ul>
+<li>create an instruction label for the entry text fields
+<li>add these entry text fields to the <b>this</b> event handler
+</ol>
+</p>
+<h3><a name="LM"> Layout Managers </a>   </h3>
+<p>Why are we considering <b><a href="#LMAN">Layout Managers</a></b>? When we are considering adding <i>graphics</i> to a frame, we need an anchor (context) that we can use as a reference for all of the <i>graphics</i>. The display area for a <b>JApplet</b> has a context, called a <i>content pane</i> to which the <i>graphics</i> must be attached if they are to be displayed at <i>run time</i>.
+To get the context in Java, we write a line similar to: <br>
+<table border>
+<tr>
+<td>
+<pre> <b> <font color=blue>
+<a href="#CONT">Container</a> c = getContentPane(); // get the context or content pane
+</font> </b> </pre> 
+</td>
+</tr>
+<tr bgcolor=lightyellow>
+<th>Figure 4: application/applet pseudocode/template</th>
+</tr>
+</table> <br>
+<h5> What does context mean?</h5>
+What does context mean? The <b>content pane</b> is the area where the developer is allowed to add items like <b>push buttons, text, etc.</b> 
+<br> <br>
+<table border>
+<tr>
+<td>
+<table border>
+<tr>
+<td><pre>  </pre></td>
+<td bgcolor=blue><pre><font color=white>             Title Bar            </font></pre></td>
+<td><pre> _ </pre></td>
+<td><pre>  </pre></td>
+<td><pre> X  </pre></td>
+</tr>
+<tr>
+<td colspan=5><pre>                  Menu Bar    </pre><td>
+</tr>
+<tr>
+<td colspan=5> <pre>                  Tool Bar    </pre><td>
+</tr>
+<tr>
+<td colspan=5> <br> <br> <br> 
+<pre><h1>            contentPane                 </h1> </pre>
+<br> <br> <br> <br>
+<td>
+</tr>
+</table> 
+</td>
+</tr>
+<tr bgcolor=lightyellow>
+<th>Figure 5: contentPane</th>
+</tr>
+</table> <br>
+<b>Content c =</b> in <b>Figure 4</b> declares a container upon which other objects can be added.
+</p>
+<p>We are at a <i>design point</i>. We need to lay out the <i>graphics</i> in a precise order. Specifically, we need to have 
+<ul>
+<li><i>Graphic</i> (text fields) at the top (North);
+<li><i>graphics</i> (charts) in the Center;
+<li>One row at the bottom containing seven <i>graphic buttons</i> (South);
+</ul>
+<i>One Layout Manager per Container</i> further complicates our design point. We overcome this latest problem by placing containers on our original container. These new containers are called  <b><a href="#JPAN">JPanels</a></b>.
+</p>
+<p>To layout the <b>North <i>graphics</i></b>, we use code similar to the following.
+
+<table border>
+<tr>
+<td>
+<pre> <b> <font color=blue>
+<font color=black>/** Declare and allocate the label field */ </font>
+JLabel label1      = new JLabel("Enter 4 numbers.");
+
+<font color=black>/** Declare and allocate the JPanel */ </font>
+JPanel textPanel   = new JPanel();
+
+<font color=black>/** Declare and allocate the text fields */ </font>
+JTextField text1   = new JTextField(5);
+JTextField text2   = new JTextField(5);
+JTextField text3   = new JTextField(5);
+JTextField text4   = new JTextField(5);
+JTextField text5   = new JTextField(5);
+
+<font color=black>/** Use the GridLayout Manager for the textPanel */</font>
+textPanel.setLayout(
+         new GridLayout( 1, 6 ) );
+
+<font color=black>/** Add the label and text fields to the textPanel */</font>
+textPanel.add(label1);
+textPanel.add(text1);
+textPanel.add(text2);
+textPanel.add(text3);
+textPanel.add(text4);
+textPanel.add(text5);
+
+c.add( textPanel,  BorderLayout.NORTH );
+</font> </b> </pre> 
+</td>
+</tr>
+<tr bgcolor=lightyellow>
+<th>Figure 6:  Declaring Text Fields</th>
+</tr>
+</table> <br>
+We are using the <b>BorderLayout Manager</b>. A <i>border layout manager</i> lays out a container, arranging and resizing its components to fit in five regions: north, south, east, west, and center. Each region may contain no more than one component, and is identified by a corresponding constant: NORTH, SOUTH, EAST, WEST, and CENTER.
+</p>
+<p>The code to create and add the buttons to the <b>buttonPanel</b> looks similar to the following.
+<br> <br>
+<table border>
+<tr>
+<td>
+<pre> <b> <font color=blue>
+
+pieButton    = new JButton( "Create Pie Chart" ) ;
+barButton    = new JButton( "Create Bar Chart" ) ;
+printButton  = new JButton( "Print" ) ;
+helpButton   = new JButton( "Help" ) ;
+aboutButton  = new JButton( "About" ) ;
+clearButton  = new JButton( "Clear" ) ;
+exitButton   = new JButton( "Exit" ) ;
+
+buttonPanel.add( pieButton ) ;
+buttonPanel.add( barButton ) ;
+buttonPanel.add( printButton ) ;
+buttonPanel.add( helpButton ) ;
+buttonPanel.add( aboutButton ) ;
+buttonPanel.add( clearButton ) ;
+buttonPanel.add( exitButton ) ;
+
+c.add( buttonPanel,  BorderLayout.SOUTH );
+</font> </b> </pre>
+</td>
+</tr>
+<tr bgcolor=lightyellow>
+<th>Figure 7:  Declaring Push Buttons</th>
+</tr>
+</table> <br>
+</p>
+<p>The code to add event handlers to the buttons looks similar to the following.
+<br> <br> 
+<table border>
+<tr>
+<td>
+<pre> <b> <font color=blue>
+pieButton.addActionListener( this ) ;
+barButton.addActionListener( this ) ;
+printButton.addActionListener( this ) ;
+helpButton.addActionListener( this ) ;
+aboutButton.addActionListener( this ) ;
+clearButton.addActionListener( this ) ;
+exitButton.addActionListener( this ) ;
+</font> </b> </pre>
+</td>
+</tr>
+<tr bgcolor=lightyellow>
+<th>Figure 8:  Event Handlers</th>
+</tr>
+</table> <br>
+</p>
+<h3> <a name="G2D"> Graphics API </a> </h3>
+<p>We will be using aspects of the <b>Graphics API</b>, but not the entire API. The <b>Graphics API</b> is the fundamental class for rendering 2-dimensional shapes, text and images on the 
+Java(tm) platform. 
+<ul>
+<li>The primary <b>Graphics</b> method that we will use is the <b>fillArc</b> method.  The <b>fillArc</b> method creates a pie-slice effect.  Before we look at the <b>fillArc</b> method, let's review
+the <b>drawOval</b> method. <br> <br>
+<table border>
+<tr>
+<td>
+<pre> <b> <font color=blue>
+public abstract 
+       void drawOval(int x,
+                     int y,
+                     int width,
+                     int height)
+</font> </b> </pre>
+</td>
+</tr>
+<tr>
+<th bgcolor=lightyellow> Figure 9: drawOval Method </th>
+</tr>
+</table> <br> <br>
+<ul>
+<li>The drawOval method creates an outline of an oval. The result is a circle or 
+ellipse that fits within the rectangle specified by the x, y, width, and height arguments.
+<li>The oval covers an area that is width + 1 pixels wide and height + 1 pixels tall.
+<li>Parameters:
+<ul>
+<li><b>x</b> - the x coordinate of the upper left corner of the oval to be drawn.
+<li><b>y</b> - the y coordinate of the upper left corner of the oval to be drawn.
+<li><b>width</b> - the width of the oval to be drawn.
+<li><b>height</b> - the height of the oval to be drawn.
+</ul>
+<li>If the <b>width</b> and the <b>height</b> are equal, the <b>drawOval</b> method will draw a circle.
+</ul> <br>
+Now let's consider the <b>fillArc</b> method. When we call the <i>API</i> with the proper parameters, we hope to get a pie slice like the one shown in the following depiction.
+<br> <br>
+<table border>
+<tr>
+<td>
+ <IMG SRC="fillarc.JPG" ALIGN=TOP></a>
+</td>
+</tr>
+<tr>
+<th bgcolor=lightyellow> Figure 10: Depiction of calling fillArc </th>
+</tr>
+</table>
+ <br> <br>
+Below is the <b>fillArc <i>API</i></b>.
+<br> <br>
+<table border>
+<tr>
+<td>
+<pre> <b> <font color=blue>
+public abstract void 
+            fillArc(int x,           // (x, y) defines the 
+                    int y,           //     origin of the arc
+                    int width,       // width of the rectangle enclosing the oval
+                    int height,      // height of the rectangle enclosing the oval
+                    int startAngle,  // The arc is drawn from 
+                    int arcAngle)    // startAngle to startAngle + 
+                                     //     arcAngle.
+</font> </b> </pre> <br>
+</td>
+</tr>
+<tr>
+<th bgcolor=lightyellow> Figure 11: fillArc Method </th>
+</tr>
+</table> <br> <br>
+The pie chart will fill the entire <i>360<sup>&deg;</sup></i> circle. In general, we will use the end of one angle sweep as the start of the next angle. For
+example, if the first pie-slice starts at zero and ends at <i>36<sup>&deg;</sup></i>, then the next slice will start at <i>36<sup>&deg;</sup></i>.
+<li>The color for a slice will be set with the following method. <br>  <br> 
+<li>The color for a slice will be set with the following method.
+<br> <br>
+<table border>
+<tr>
+<td>
+<pre> <b> <font color=blue>
+public abstract void setColor(Color c)
+</font> </b> </pre> 
+</td>
+</tr>
+<tr>
+<th bgcolor=lightyellow> Figure 12: setColor Method </th>
+</tr>
+</table> <br> <br>
+<ul>
+This method sets this graphics context's current color to the specified color. All subsequent graphics operations using this graphics context use this specified color.
+</ul> 
+<li>We will use the following method to render text.
+<br> <br>
+<table border>
+<tr>
+<td>
+<pre> <b> <font color=blue>
+public abstract void drawString(
+      AttributedCharacterIterator iterator,
+      int x,
+      int y)
+</font> </b> </pre>  
+<tr>
+<th bgcolor=lightyellow> Figure 13: drawString Method </th>
+</tr>
+</table> <br> <br>
+This method draws the text given by the specified iterator, using this graphics context's current color.
+
+</ul> <br>
+Using the above methods and the <b>Font</b> class, we will create the Pie Chart Application as shown below.
+</p>
+<h3><font size="4"><a name="PTC"> Print the Charts </a></font></h3>
+<p>How do we print the rendered charts? First, we create a class that <b>implements</b> the class <b>Printable</b>. 
+<br> <br>
+<table border>
+<tr>
+<td>
+<pre> <b> <font color=blue>
+class DrawPanel extends JPanel implements <a href="#PRIN">Printable</a> {
+</font> </b> </pre> <br>
+Next we create code to start a print job.
+<pre> <b> <font color=blue>
+/** Start a new print job */
+job = PrinterJob.getPrinterJob() ;
+job.setPrintable( this );
+if ( job.printDialog()) {
+   try {
+      job.print();
+   }
+   catch (PrinterException e) {
+      e.printStackTrace();
+   }
+}
+</font> </b> </pre> 
+</td>
+</tr>
+<tr>
+<th bgcolor=lightyellow> Figure 14: Creating Print Dialog </th>
+</tr>
+</table> <br> <br>
+</p>
+<h3><a name="HDWGTUI">How Do We Get the User's Input? </a></h3>
+<p>How do we get the user's input? We will use the method <b>getText()</b> to get the data the user-entered in each text field. In our example, we will
+get the data and store it in class ChartPanel's string variables. You will remember that we created an instance of DrawPanel with the following code snippet:
+<br> <br>
+<table border>
+<tr>
+<td>
+<pre> <b> <font color=blue>
+private ChartPanel myChart;
+
+myChart = new ChartPanel( width, height );
+</font> </b> </pre> <br>
+To get and store the data, we will use the following code:
+<pre> <b> <font color=blue>
+strField1 = text1.getText() ;
+strField2 = text2.getText() ;
+strField3 = text3.getText() ;
+strField4 = text4.getText() ;
+strField5 = text5.getText() ;
+</font> </b> </pre> <br>
+We will use the following code snippet to convert the user-entered data to integers.
+<pre> <b> <font color=blue>
+intField1 = Integer.parseInt( strField1 );
+intField2 = Integer.parseInt( strField2 );
+intField3 = Integer.parseInt( strField3 );
+intField4 = Integer.parseInt( strField4 );
+intField5 = Integer.parseInt( strField5 );
+
+NOTE: getText() returns the datathe user entered in the text field
+</font> </b> </pre> 
+</td>
+<tr>
+<th bgcolor=lightyellow> Figure 15: Creating Text Fields </th>
+</tr>
+</table> <br> <br>
+</p>
+
+<h3><a name="VDAD">Verifying Data are Digits</a></h3>
+<p>The <b>checkDigit()</b> method checks to ensure that the data entered  in the text fields are all digits. The field is parsed
+character by character to ensure each is a digit. Since there are five entry fields, we need to check the data in each field. The <b>Java API</b> allows us to check one character at a time.
+We already have the data, in <b>String</b> format in the following fields:
+<ul>
+<li><b>strField1</b>
+<li><b>strField2</b>
+<li><b>strField3</b>  
+<li><b>strField4</b> 
+<li><b>strField5</b>
+</ul>
+We will load the data into a <b>String</b> array and then use two <b>for</b> loops to parse the data. The  <b>Java API</b> we will use looks like:
+<table border>
+<tr>
+<td>
+<pre> <b> <font color=blue>
+Character.isDigit( strVal.charAt(iii) )
+
+  a) 	isDigit(char ch)
+          Determines if the specified character is a digit.
+  b) 	charAt(int index)
+          Returns the character at the specified index.
+</font> </b> </pre> 
+</td>
+<tr>
+<th bgcolor=lightyellow> Figure 16: Verifying Data </th>
+</tr>
+</table> <br> <br>
+The <b>Character</b> and <b>String</b> methods allow us to parse each character and determine whether it is a digit/number.
+</p>
+<h3><a name="VDINN">Verifying Data is not Null</a></h3>
+<p>The <b>checkFields()</b> method ensures that the data is not null. Why is it important to ensure that the data is not null/blank? If a filed is null/blank, the 
+<b>Integer.parseInt()</b> method will fail. The logic used to check for a field being null/blank is:
+ <br> <br>
+<table border>
+<tr>
+<td><pre> <b> <font color=blue>
+if ( strField1.equals("") ||                             
+    strField2.equals("") ||
+       strField3.equals("") ||
+       strField4.equals("") ||
+       strField5.equals("") )
+</font> </b> </pre>  
+</td>
+<tr>
+<th bgcolor=lightyellow> Figure 17: Verifying Data is not Null </th>
+</tr>
+</table> <br> <br>
+</p>
+<h3><a name="CFCID">Checking for Change in Data</a></h3>
+<p>The checkFieldsChange() method checks if data in the text fields has changed since the last check.
+The logic used to check for a field changed since last check is: <br> <br>
+<table border> 
+<tr>
+<td>
+<pre> <b> <font color=blue>
+if ( !(intField1 == chgField1 ) ||                                  
+       !(intField2 == chgField2 )  ||
+         !(intField3 == chgField3 ) ||
+         !(intField4 == chgField4 ) ||
+         !(intField5 == chgField5 ) ) 
+</font> </b> </pre>  
+</td>
+<tr>
+<th bgcolor=lightyellow> Figure 18: Determing whether data has changed </th>
+</tr>
+</table> <br> <br>
+The user data is obtained from the entry fields using the following logic.<br> <br>
+<table border> 
+<tr>
+<td>
+<pre> <b> <font color=blue>
+intField1 = Integer.parseInt( strField1  = text1.getText()  ) ;          
+intField2 = Integer.parseInt( strField2  = text2.getText()  ) ;
+intField3 = Integer.parseInt( strField3  = text3.getText()  ) ;
+intField4 = Integer.parseInt( strField4  = text4.getText()  ) ;
+intField5 = Integer.parseInt( strField5  = text5.getText()  ) ;
+</font> </b> </pre> <br>
+</td>
+<tr>
+<th bgcolor=lightyellow> Figure 19: Obtaining User data </th>
+</tr>
+</table> <br> <br>
+The Integer class wraps a value of the primitive type int in an object. An object of type Integer contains a single field whose type is int. <b>parseInt(String s)</b>
+parses the string argument and creates a signed decimal integer.
+</p>
+<h3> <a name="FP"> Final Product  </a> </h3>
+<p>Based on what we have learned, we can create a method summary and the final product, which are shown in the following sections.
+</p>
+<h5>  Method Summary  </a> </h5>
+<table border>
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<th colspan=2>Figure 20: PieChart_III Class Method Summary</th>
+</tr>
+<tr BGCOLOR=lightyellow>
+<th> Method</th>
+<th> Description</th>
+</tr>
+<tr> 
+<td>actionPerformed() </td> 
+<td>actionPerformed() is the event handler that responds to the events caused by pressing the buttons. The events
+<ol>
+<li>caused by pressing the push buttons are:
+<li>Exit button causes the application to exit
+<li>The Pie Button causes the application to gather the data the user entered to create a Pie Chart.
+<li>The Pie Button causes the application to gather the data the user entered to create a Bar Chart.
+<li>The Print Button causes the application to print the the chart being displayed.
+<li>The Help Button causes the application to call the Internet Explorer to display a Help file.
+<li>The About Button causes the application to try to connect to my site.
+<li>The Clear Button causes the application to clear any chart being displayed and the text entry fields.
+</td> 
+</tr>
+<tr BGCOLOR=lightblue> 
+<td>checkDigit()</td> 
+<td>checkDigit() This method checks to ensure that the data entered in the text fields are all digits.
+<ol> 
+<li>Obtain each value in order
+<li>Determine the length of each value in order
+<li>Parse is value a character at a time
+<li>If value is not a digit, determine which field return value indicating value is not a digit 
+<li>Otherwise, indicate all values are digits
+</td> 
+</tr>
+<tr> 
+<td> checkFields()</td> 
+<td>the checkFields() method Ensure that the data is not null
+<ol> 
+<li>Obtain the data from each field
+<li>Determine if any field is null
+<li>Verify that each piece of data is a digit 
+</ol> 
+</td> 
+</tr>
+<tr  BGCOLOR=lightyellow> 
+<td>checkFieldsChange()</td> 
+<td> The checkFieldsChange() method checks if data in the text fields has changed since the last check.</td> 
+</tr>
+<tr>  
+<td> drawBar()</td> 
+<td> drawBar uses the user input to draw the bar chart</td> 
+</tr>
+<tr BGCOLOR=lightblue> 
+<td> drawPie()</td> 
+<td> drawPie uses the user input to draw the pie chart</td> 
+</tr>
+<tr  BGCOLOR=lightyellow> 
+<td> getTextValues()</td> 
+<td>The getTextValues() method retrieves data from the text entry fields.</td> 
+</tr>
+<tr> 
+<td> init()</td> 
+<td> Initialization method init() calls the following methods:
+<ol>
+<li>setupPanels() - creates the JPanels
+<li>setupText() - creates lables and entry fields
+<li>setupButtons() - creates push buttons
+<li>In addition, it obtains the context for which to anchor
+the JPanels and add the GUI.
+</ol>
+</td> 
+</tr>
+<tr BGCOLOR=lightblue> 
+<td>main(String[] args) </td> 
+<td> main(String args[] ) : this is the entry point for this application that Java calls when starting this program execution.</td> 
+</tr>
+<tr> 
+<td> print()</td> 
+<td> This method prints the contents that are displayed on the frame</td>
+</tr> 
+<tr  BGCOLOR=lightyellow> 
+<td> printFrame()</td> 
+<td> This method prints the contents that are displayed on the frame</td> 
+</tr>
+<tr> 
+<td> SetFrameRef()</td> 
+<td> Set the current value of the frame reference</td> 
+</tr>
+<tr BGCOLOR=lightblue> 
+<td> setGraphicsVal()</td> 
+<td> Set the current <b>Graphic g</b> value.</td> 
+</tr>
+<tr  BGCOLOR=lightyellow> 
+<td> setHeight(int h)</td> 
+<td>Set the height to 600 if h less than 0</td> 
+</tr>
+<tr> 
+<td> setupButtons()</td> 
+<td>The setupButtons() method allocates and sets up the JButtons.
+<ol>
+<li>Declare the push buttons
+<li>Set the background colors for the push buttons
+<li>Add the buttons to the button panel
+<li>Add event handlers to each button
+</ol>
+</td> 
+</tr>
+<tr BGCOLOR=lightyellow> 
+<td> setupPanels()</td> 
+<td> The setupPanels() methos is used to create the JPanles
+used in this application/applet.
+<ol>
+<li>Declare a JPanel - textPanel
+<li>Set Layout Manager for textPanel to GridLayout
+<li>Declare a JPanel - buttonPanel
+<li>Declare a JPanel - myChart - area where pie chart or bar chart is rendered
+</ol>
+</td> 
+</tr>
+<tr> 
+<td> setupText()</td> 
+<td>The setupText() method allocates and sets up the entry text fields and labels used to gather user input.
+<ol>
+<li> Declare a JLabel
+<li>Declare 5 JTextFields
+<li>Add the label to the text panel
+<li>Add text fields to the text panel
+</ol>
+</td> 
+</tr>
+<tr BGCOLOR=lightblue> 
+<td> setWidth(int w)</td> 
+<td> Set the width of frame to 600 if w less than 0</td> 
+</tr>
+<tr> 
+<td> sysExit(int ext)</td> 
+<td>The sysExit() method is called in response to a close application event.</td> 
+</tr>
+<tr BGCOLOR=lightyellow> 
+<td> sysPrint()</td> 
+<td>The sysPrint() method is used to print out debugging messages.</td> 
+</tr>
+</table>
+<p>Putting together what we  have learned from the above, we get the following:
+<h5>  PieChart_III Final Product  </a> </h5>
+<table border>
+<tr bgcolor=lightyellow>
+<th>PieChart_III Final Product   </th>
+</tr>
+<tr>
+<td> 
+<pre> <b> <font color=blue>
+/**
+ * File: PieBarGraph.java
+ * This program takes user input and creates a pie and/or bar chart
+ * Copyright (c) 2002-2009 Advanced Applications Total Applications Works.
+ * (AATAW)  All Rights Reserved.
+ ****************************************************************/
+
+
+
+
+/** ***************************************************************
+ *  class PieChart is used to create a simple pie chart based on
+ *  user data input.
+ **************************************************************** */
+public class PieBarGraph extends JApplet implements ActionListener , Printable {
+   
+   /** ********************************************************
+    * Initialization method init() calls the following methods:
+    * 1- setupPanels() - creates the JPanels
+    * 2- setupText() - creates lables and entry fields
+    * 3- setupButtons() - creates push buttons
+    *
+    * In addition, it obtains the context for which to anchor
+    * the JPanels and add the GUI.
+    **********************************************************/
+   public void init()   {
+
+      setupPanels() ;
+
+      setupText() ;
+
+      setupButtons();
+
+      c = getContentPane();
+
+      c.add( textPanel,  BorderLayout.NORTH );
+      c.add( buttonPanel, BorderLayout.SOUTH );
+      c.add( myChart, BorderLayout.CENTER );
+   }
+
+   /**  ****************************************************
+    *  The setupPanels() method is used to create the JPanels
+    *  and JLabels used in this application/applet.
+    *  1- Declare a JPanel - textPanel
+    *  2- Set Layout Manager for textPanel to GridLayout
+    *  3- Declare a JPanel - buttonPanel
+    *  4- Declare a JPanel - myChart - area where pie chart 
+    *     or bar chart is rendered
+    *  
+    ********************************************************/
+   public void setupPanels() { 
+
+   }
+
+   /**  ****************************************************
+    * The setupText() method allocates and sets up the entry
+    * text fields used to gather user input.
+    * 1- Declare a JLabel
+    * 2- Declare 5 JTextFields
+    * 3- Add the label to the text panel
+    * 4- Add text fields to the text panel
+    *  
+    ********************************************************/
+   public void setupText() { 
+
+   }
+
+   /**  ****************************************************
+    * The setupButtons() method allocates and sets up the
+    * JButtons.
+    * 1- Declare the push buttons
+    * 2- Set the background colors for the push buttons
+    * 3- Add the buttons to the button panel
+    * 4- Add event handlers to each button
+    *  
+    ********************************************************/
+   public void setupButtons() { 
+
+   }
+
+   /**  ****************************************************
+    * Set the width of frame to 600 if w less than 0
+    ***************************************************** */
+   public void setWidth( int w )
+      { width = ( w >= 0 ? w : 600 ); }
+
+   /** ****************************************************
+    * Set the height to 600 if h less than 0
+    ***************************************************** */
+   public void setHeight( int h )
+      { height = ( h >= 0 ? h : 400 ); }
+
+   /** ****************************************************
+    * Set the current value of the frame reference
+    ***************************************************** */
+   public void setFrameRef( JFrame appM )
+      { app = appM ; }
+
+
+   /** */
+   public void setGraphicsVal( Graphics g )     {
+      gVal = g;
+   }
+
+   /**
+   public Graphics getGraphicsVal(  )      {
+      return gVal ;
+   }  */
+
+   /**   ******************************************************
+    * The checkFields() method ensures that the data is not null
+    * 1- Obtain the data from each field
+    * 2- Determine if any field is null
+    * 3- Verify that each piece of data is a digit  
+    * 
+    ***********************************************************/
+   public boolean checkFields( ) { 
+
+   }
+
+   /** ****************************************************
+    * checkDigit()
+    * This method checks to ensure that the data entered
+    * in the text fields are all digits. The field is parsed
+    * character by character to ensure each is a digit.
+    * 1- Obtain each value in order
+    * 2- Determine the length of each value in order 
+    * 3- Parse is value a character at a time
+    * 4- If value is not a digit, determine which field
+    *    - return value indicating value is not a digit 
+    * 5- Otherwise, indicate all values are digits
+    * 
+    ***************************************************** */
+   public boolean  checkDigit( ) {
+
+ 
+   }
+
+   /** **************************************************
+    *  The checkFieldsChange() method checks if data in
+    *  the text fields has changed since the last check.
+    ****************************************************/
+   public void checkFieldsChange( ActionEvent e ) {
+
+
+   }
+
+   /**  **************************************************
+    * The getTextValues() method retrieves data from the
+    * text entry fields.
+    ****************************************************/
+   public void getTextValues() {
+
+   }
+
+
+   /** **************************************************
+    *  actionPerformed() is the event handler that responds
+    *  to the events caused by pressing the buttons. The events
+    *  caused by pressing the push buttons are:
+    *  1- Exit button causes the application to exit
+    *  2- The Pie Button causes the application t0 gather the
+    *     data the user entered to create a Pie Chart.
+    ****************************************************/
+   public void actionPerformed( ActionEvent e )  {
+ 
+   }
+
+   /** ***********************************************************
+    * The sysExit() method is called in response to a close
+    * application event.
+    ************************************************************* */
+   public void sysExit( int ext ) {
+      System.exit( ext ) ;
+   }
+
+   /** **************************************************
+    * drawPie uses the user input to draw the pie chart
+    ****************************************************/
+
+   public void drawPie( Graphics g) {
+
+   }
+
+   /** **************************************************
+    * drawBar uses the user input to draw the bar chart
+    ****************************************************/
+   public void drawBar( Graphics g) {
+ 
+   }
+
+   /** *********************************************************
+    * This method prints the contents that are displayed
+    * on the frame
+    ************************************************************/
+   public void printFrame( Graphics g ) {
+
+
+   }
+
+
+   /** *********************************************************
+    * This method prints the contents that are displayed
+    * on the frame
+    ************************************************************/
+   public int print(Graphics g, PageFormat pf, int pageIndex) throws PrinterException {
+  
+   }
+
+
+   /** ****************************************************
+    * sysPrint() is used to print out debugging messages.
+    ***************************************************** */
+   public void sysPrint( String str ) {
+       
+   }
+
+   /** ********************************************************************
+    *  main(String args[] ) : this is the entry point for this application
+    *                         that Java calls when starting this program
+    *                         execution when it runs as an application.
+    *********************************************************************/
+   public static void main( String args[] )
+   {
+      
+   }
+
+
+   /** ********************************************************
+    *  subclass of JPanel to allow drawing in a separate area
+    ***********************************************************/
+   public class ChartPanel extends JPanel  {
+       
+
+   }
+
+   /** ******************************************************
+       *  paintComponent() is called when a paint operation is
+       *                   required by the subclass MyPanel which
+       *                   extends the JPanel class. The method
+       *                   writes the help instructions on the
+       *                   initial pass. It then does determines
+       *                   a) - If any of the fields were null, which
+       *                        will generate a fieldNull error.
+       *                   b) - If any of the fields are not a digit,
+       *                        which will generate a fieldNot_A_Digit
+       *                        error.
+       *
+       *                   If steps a) and b) do not generate an error,
+       *                   the code determines which button was pressed.
+       *                   If butChoice equals
+       *
+       *                   0- The pie chart button was pressed.
+       *                   1- The bar chart button was pressed.
+       *                   2- The print button was pressed.
+       *                   3- The help button was pressed.
+       *                   4- The about button was pressed.
+       *                   5- The exit button are not processed by this
+       *                      paintcomponent because nothing needs to
+       *                      be printed on the JPanel.
+       ********************************************************/
+      public void paintComponent( Graphics g )  {
+
+ 
+   }
+}
+
+
+
+</font> </b> </pre> </td>
+</tr>
+</table>
+</p> 
+<h3><a name="APPAPP"> Template for an application/applet </a> </h3>
+<table border>
+<tr bgcolor=lightyellow>
+<th>Template for an application/applet </th>
+</tr>
+<tr>
+<td> 
+<pre> <b>  <font color=blue>
+/** this is a template for an application */
+
+
+import javax.swing.*;
+import java.awt.event.*;
+
+public class appAppletTemplate extends JApplet {
+   /** class level variables */
+   private int width = 500, height = 400;
+
+   public void init() {
+      
+      setSize( 700, 400 ) ;
+      setVisible( true ) ;
+   }
+
+   /** ***********************************************************
+    * sysExit() is called when the application detects an
+    *           event to cloase e.g., pressing the Exit button.
+    ************************************************************* */
+   public void sysExit( int ext ) {
+      System.exit( ext ) ;
+   }
+ 
+   public static void main( String args[] ) {
+
+      // create window in which applet will execute
+      JFrame appMain =
+         new JFrame( "Run as a app or an Applet" );
+
+      /** create one applet instance */
+      final appAppletTemplate appApp = new appAppletTemplate ();
+      
+      /** call applet's init and start methods */
+      appApp.init();
+      appApp.start();
+
+      /** attach applet to center of window */
+      appMain.getContentPane().add( appApp );
+
+
+      appMain.addWindowListener(
+         new WindowAdapter() {
+            public void windowClosing( WindowEvent e )
+            {
+               appApp.sysExit( 0 );
+            }
+         }
+      );
+
+      /** set the window's size */
+      appMain.setSize( appApp.width, appApp.height );
+
+      /**
+       * showing the window causes all GUI components
+       * attached to the window to be painted
+       */
+
+      appMain.show();
+   }
+
+}
+
+</font> </b> </pre>
+</td>
+</tr>
+</table>
+</p>
+<!-- definitions --><!-- Definitions -->
+<p><a name="CONT"><b>Container</b></a> - <ul> A generic Abstract Window Toolkit(AWT) container object is a component that can contain other AWT components.</ul></p>
+<p><a name="JBUT"><b>JButton</b</a> - <ul>An implementation of a "push" button. </ul></p>
+<p><a name="JLAB"><b>JLABEL</b</a> - <ul>A display area for a short text string or an image, or both. A label does not react to input events. As a result, it cannot get the keyboard focus. A label can, however, display a keyboard alternative as a convenience for a nearby component that has a keyboard alternative but can't display it.</ul></p>
+<p><a name="JMEN"><b>JMenu</b</a> - <ul>An implementation of a menu -- a popup window containing JMenuItems that is displayed when the user selects an item on the JMenuBar. In addition to JMenuItems, a JMenu can also contain JSeparators.</ul></p>
+<p><a name="JMENB"><b>JMenuBar</b</a> - <ul>An implementation of a menu bar. You add JMenu objects to the menu bar to construct a menu. When the user selects a JMenu  object, its associated JPopupMenu is displayed, allowing the user to select one of the JMenuItems on it.</ul></p>
+<p><a name="JMENI"><b>JMenuItems</b</a> -  <ul>An implementation of an item in a menu. A menu item is essentially a button sitting in a list. When the user selects the "button", the action associated with the menu item is performed. A JMenuItem  contained in a JPopupMenu performs exactly that function.</ul></p>
+<p><a name="JPAN"><b>JPanel</b</a> - <ul> is a generic lightweight container.</ul></p>
+<p><a name="PRIN"><b>Printable</b> - The Printable interface is implemented by the print methods of the current page painter, which is called by the printing system to render a page.</p>
+<p><a name="JSCROL"><b>JScrollBar</b</a> -  <ul>n implementation of a scrollbar. The user positions the knob in the scrollbar to determine the contents of the viewing area. The program typically adjusts the display so that the end of the scrollbar represents the end of the displayable contents, or 100% of the contents. The start of the scrollbar is the beginning of the displayable contents, or 0%. The position of the knob within those bounds then translates to the corresponding percentage of the displayable contents.</ul></p>
+<p><a name="JTAB"><b>JTable</b</a> -  <ul>The JTable is used to display and edit regular two-dimensional tables of cells.</ul></p>
+<p><a name="JTEXT"><b>JTextAreas </b</a> -  <ul>A JTextArea is a multi-line area that displays plain text. It is intended to be a lightweight component that provides source compatibility with the java.awt.TextArea class where it can reasonably do so.</ul></p>
+<p><a name="JTEXTF"><b>JTextFields</b</a> -  <ul>JTextField is a lightweight component that allows the editing of a single line of text. For information on and examples of using text fields.</ul></p>
+<p><a name="LMAN"><b>Layout Manager</b></a> - <ul> Defines the interface for classes that know how to layout Containers.</ul></p>
+
+</td>
+</tr>
+<p></p>
+<br> <br>
+<tr>
+<th colspan=2>
+<center>
+
+<a href="http://sumtotalz.com/TotalAppsWorks/PieChart/PieBarChart_Tut_II.htm">
+<img src="http://sumtotalz.com/TotalAppsWorks/SQL/back.JPG"></a>
+<a href="http://sumtotalz.com/TotalAppsWorks/JAVA_TOC.html"><img src="http://sumtotalz.com/TotalAppsWorks/SQL/TOC.JPG"></a>
+<a href="http://sumtotalz.com/TotalAppsWorks/Calc_All/BasicCalc_Tut.html"><img src="http://sumtotalz.com/TotalAppsWorks/SQL/next.JPG"></a></center>
+          <br> </a></font></font><center><font size="4"><font size="4"><a name="INH"> 
+          <img src="indexHWS_files/bludiv4684.html" width="600" height="5">
+           </a></font></font><p><font size="4"><font size="4"><a name="INH"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">[</font></a><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href="http://sumtotalz.com/TotalAppsWorks/index.html">HOME</a>] 
+                 [<a href="http://sumtotalz.com/TotalAppsWorks/consulting.html">Consulting</a>] [<a href="http://sumtotalz.com/TotalAppsWorks/design.html">Design</a>]
+                 [<a href="http://sumtotalz.com/TotalAppsWorks/Maintenance.html">Maintenance</a>] [<a href="http://sumtotalz.com/TotalAppsWorks/project.html">Project</a>] 
+                 [<a href="http://sumtotalz.com/TotalAppsWorks/testing.html">Testing</a>] [<a href="http://sumtotalz.com/TotalAppsWorks/training.html">Training</a>] [<a href="http://sumtotalz.com/TotalAppsWorks/turnkey.html">Turnkey</a>] 
+                  [<a href="http://sumtotalz.com/TotalAppsWorks/java.html">Java</a>]                [<a href="http://sumtotalz.com/TotalAppsWorks/cplusplus.html">C++</a>]
+[<a href="http://sumtotalz.com/TotalAppsWorks/SQL/MY_SQL_TOC.html">SQL</a>]
+[<a href="http://sumtotalz.com/TotalAppsWorks/HTML/HTML_TOC.html">HTML</a>] 
+[<a href="http://sumtotalz.com/TotalAppsWorks/Javascript/MY_JS_TOC.html">JavaScript </a>]</font></font></font></p>
+
+<font size="4"><font size="4">           </font></font><p><font size="4"><font size="4"><font color="black" size="2" face="Arial, Helvetica, sans-serif">
+&copy; 2002 - 2009 All 
+                Rights Reserved<b><i> Total Application Works </i></b></font></font></font></p><font size="4"><font size="4"> </font></font></center><font size="4"><font size="4"> 
+</font></font><p></p>
+
+</th>
+</table>
+
+
+
+
+</body>
+</html>
